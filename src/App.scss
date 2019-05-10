@@ -4,6 +4,16 @@
   height: calc(100vh - 20px);
 }
 
+.virtualizedTable_grid {
+  position: relative;
+  overflow: scroll;
+}
+
+.virtualizedTable_row {
+  display: flex;
+  flex-direction: row;
+}
+
 .App {
   text-align: center;
   // width: 100vw;
